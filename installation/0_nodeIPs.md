@@ -1,5 +1,5 @@
-ec2-54-169-144-128.ap-southeast-1.compute.amazonaws.com	54.169.144.128
-ec2-52-77-247-34.ap-southeast-1.compute.amazonaws.com	52.77.247.34
-ec2-54-169-220-140.ap-southeast-1.compute.amazonaws.com	54.169.220.140
-ec2-54-169-180-91.ap-southeast-1.compute.amazonaws.com	54.169.180.91
-ec2-54-169-169-54.ap-southeast-1.compute.amazonaws.com	54.169.169.54
+ec2-54-255-153-234.ap-southeast-1.compute.amazonaws.com	54.255.153.234
+ec2-54-254-139-254.ap-southeast-1.compute.amazonaws.com	54.254.139.254
+ec2-54-251-189-147.ap-southeast-1.compute.amazonaws.com	54.251.189.147
+ec2-54-169-201-242.ap-southeast-1.compute.amazonaws.com	54.169.201.242
+ec2-54-255-162-103.ap-southeast-1.compute.amazonaws.com	54.255.162.103
