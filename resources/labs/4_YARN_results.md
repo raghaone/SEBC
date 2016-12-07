@@ -1,9 +1,9 @@
-Testing loop started on Wed Dec 7 15:26:46 UTC 2016
-PARAMETER VALUES::
-               Mapper containers = 2
-               Reducer containers = 2
-               mapreduce.map.memory.mb = 512
-               mapreduce.map.java.opts.max.heap = 409
+Testing loop started on Wed Dec 7 15:26:46 UTC 2016<br>
+PARAMETER VALUES::<br>
+               Mapper containers = 2<br>
+               Reducer containers = 2<br>
+               mapreduce.map.memory.mb = 512<br>
+               mapreduce.map.java.opts.max.heap = 409<br>
                mapreduce.reduce.memory.mb = 512
                mapreduce.reduce.java.opts.max.heap = 409
 
