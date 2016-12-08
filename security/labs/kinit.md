@@ -7,7 +7,7 @@ Valid starting       Expires              Service principal
 12/08/2016 09:20:54  12/09/2016 09:20:54  krbtgt/RAGHAONE.COM@RAGHAONE.COM
         renew until 12/15/2016 09:20:54```
 
-<B>Output of HDFS command</B>
+<B>Output of HDFS command</B><br>
 ```[centos@ip-172-31-13-126 ~]$ sudo -u raghaone hdfs dfs -ls
 Found 7 items
 drwx------   - raghaone supergroup          0 2016-12-07 09:56 .staging
