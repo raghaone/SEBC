@@ -26,7 +26,7 @@ PARAMETER VALUES::<br>
 <br>
 real    0m16.958s<br>
 user    0m5.465s<br>
-sys     0m0.250s<br>
+sys     0m0.250s
 <br>
 real    0m28.416s<br>
 user    0m6.653s<br>
