@@ -1,4 +1,4 @@
-cat /proc/sys/vm/swappiness
+```cat /proc/sys/vm/swappiness
 vm swappiness is set 30
 changed it temporarily to 1
 sudo sysctl vm.swappiness=1
@@ -43,5 +43,4 @@ Non-authoritative answer:
 17.15.31.172.in-addr.arpa       name = ip-172-31-15-17.ap-southeast-1.compute.internal.
 
 Authoritative answers can be found from:
-
-defauly mariadb my.cnf file: /etc/my.cnf
+```
