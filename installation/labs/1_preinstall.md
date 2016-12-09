@@ -1,8 +1,12 @@
-```cat /proc/sys/vm/swappiness
+```
+cat /proc/sys/vm/swappiness
 vm swappiness is set 30
-changed it temporarily to 1
+sudo vi /etc/sysctl.conf
+vm.swappiness=1
+Set it temporarily to 1
 sudo sysctl vm.swappiness=1
 
+cat /etc/fstab
 Mount Attributes:
 #
 # /etc/fstab
@@ -24,13 +28,9 @@ sudo echo never > /sys/kernel/mm/transparent_hugepage/defrag
 cat /sys/kernel/mm/transparent_hugepage/enabled
 always madvise [never]
 
-sudo service nscd start
-chkconfig nscd  on
+Network Interface Attributes: nmcli device status
 
-sudo yum install ntp
-sudo systemctl start ntpd
-sudo systemctl enable ntpd
-
+For nslookup: sudo yum install bind-utils
 Forward/ Reverse Lookup
 getent hosts ec2-54-255-153-234.ap-southeast-1.compute.amazonaws.com
 172.31.15.17    ec2-54-255-153-234.ap-southeast-1.compute.amazonaws.com
@@ -43,4 +43,14 @@ Non-authoritative answer:
 17.15.31.172.in-addr.arpa       name = ip-172-31-15-17.ap-southeast-1.compute.internal.
 
 Authoritative answers can be found from:
+
+sudo yum install nscd
+sudo service nscd start
+sudo chkconfig nscd  on
+
+sudo yum install ntp
+sudo systemctl start ntpd
+sudo systemctl enable ntpd
+
+defauly mariadb my.cnf file: /etc/my.cnf
 ```
